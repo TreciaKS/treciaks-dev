@@ -4,7 +4,7 @@ import Link from 'next/link'
 const Navbar = () => {
   return (
     <nav>
-        <div className="container flex items-center justify-center p-4 mx-auto text-gray-600 capitalize dark:text-gray-300">
+        <div className="container flex items-center justify-center p-6 mx-auto text-gray-600 capitalize dark:text-gray-300">
             
             {/* logo */}
             <div>
