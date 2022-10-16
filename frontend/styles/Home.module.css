@@ -23,7 +23,15 @@
   .ball4 {
       animation: hidden4 3s forwards linear;
   }
-
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    align-items: center;
+    height: 100vh;
+    transform: rotate(90deg);
+    }
   /* ball animation */
   @keyframes hidden1 {
       0% {
@@ -122,5 +130,75 @@
           transform: rotate(35deg);
       }
   }
- 
+  .arrow {
+    text-decoration: none;
+    animation: slide 2s infinite linear;
+    text-shadow: 0 0 4px rgb(0, 98, 255), 0 0 8px rgb(0, 106, 255);
+    position: absolute;
+    transition: all 2s;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 80%;
+    font-style: italic;
+    font-size: 1.3em;
+    font-weight: 800;
+    animation-delay: 8s;
+    visibility: hidden;
+  }
+.welcome {
+    font-family: 'DotGothic16', sans-serif;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 20%;
+    font-size: 7rem;
+    text-shadow: 0 0 8px rgb(247, 0, 210), 0 0 10px rgb(236, 0, 79);
+    transform: rotate(-90deg);
+    animation: appear 2s forwards linear;
+    transition: all 3s;
+    animation-delay: 4.5s;
+    visibility: hidden;
+}
+/* welcome start text appears */
+@keyframes appear {
+  50% {
+      text-shadow: 0 0 8px rgb(123, 0, 255), 0 0 10px rgb(236, 0, 35);
+      color: rgb(0, 0, 0);
+      left: 5%;
+  }
+  100% {
+      text-shadow: 0 0 10px rgb(170, 3, 189), 0 0 30px rgb(149, 0, 172);
+      color: rgb(191, 0, 255);
+      visibility: visible;
+      left: -10%;
+  }
+}
+/* arrow slides */
+@keyframes slide {
+  0% {
+      left: 0px;
+    text-shadow: 0 0 4px rgb(255, 132, 0), 0 0 8px rgb(0, 106, 255);
+    visibility: visible;
+    } 
+  25% {
+      left: 10px;
+      visibility: visible;
+      text-shadow: 0 0 4px rgb(153, 0, 255), 0 0 8px rgb(0, 106, 255);
+    }
+  50% {
+      left: 20px;
+      visibility: visible;
+      text-shadow: 0 0 4px rgb(38, 255, 0), 0 0 8px rgb(0, 106, 255);
+    }
+  75% {
+      left: 30px;
+      text-shadow: 0 0 4px rgb(255, 204, 0), 0 0 8px rgb(0, 106, 255);
+      visibility: visible;
+} 
+  100% {
+      left: 40px;
+      visibility: visible;
+      text-shadow: 0 0 4px rgb(255, 0, 140), 0 0 8px rgb(0, 106, 255);
+    }
+}
   

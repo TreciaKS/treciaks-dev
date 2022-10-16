@@ -1,30 +1,19 @@
 import React from 'react'
 import styles from './Navbar.module.css'
+
 const Navbar = () => {
   return (
-    <header className={styles.header}>
-        {/* <!-- navigation --> */}
-        <nav className={`${styles.nav} ${styles.bdGrid}`}>
+    <nav className="bg-white shadow dark:bg-gray-800">
+        <div className="container flex items-center justify-center p-6 mx-auto text-gray-600 capitalize dark:text-gray-300">
+            <a href="#" className="text-gray-800 transition-colors duration-300 transform dark:text-gray-200 border-b-2 border-blue-500 mx-1.5 sm:mx-6">home</a>
 
-        {/* <!-- my logo --> */}
-        <div className="logo">
-            <img src="/logo.png" alt="TreciaKS logo" width = "50px" />
+            <a href="#" className="border-b-2 border-transparent hover:text-gray-800 transition-colors duration-300 transform dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6">features</a>
+
+            <a href="#" className="border-b-2 border-transparent hover:text-gray-800 transition-colors duration-300 transform dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6">pricing</a>
+
+            <a href="#" className="border-b-2 border-transparent hover:text-gray-800 transition-colors duration-300 transform dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6">blog</a>
         </div>
-
-        {/* <!-- menu --> */}
-        <div className={styles.navMenu} id="navMenu">
-        <ul className={styles.navList}>
-            <li className={styles.navItem}><a href="#home" className={styles.navLink}>Home</a></li>
-            <li className={styles.navItem}><a href="#about" className={styles.navLink}>About</a></li>
-            <li className={styles.navItem}><a href="#skills" className={styles.navLink}>Skills</a></li>
-            <li className={styles.navItem}><a href="#work" className={styles.navLink}>Work</a></li>
-            <li className={styles.navItem}><a href="#contact" className={styles.navLink}>Contact</a></li>
-            <div className={styles.line}></div>
-        </ul>
-        </div>
-
-        </nav>
-    </header>
+    </nav>
   )
 }
 

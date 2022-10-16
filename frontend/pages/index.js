@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Trecia Kat's Personal Portfolio'</title>
+        <title>Trecia Kat's Personal Portfolio</title>
         <meta name="description" content="Trecia Kat @TreciaKS Personal Portfolio Website" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -17,7 +17,7 @@ export default function Home() {
       </Head>
 
       <>
-        <section>
+        <section className={styles.container}>
           <div>
               <div className={`${styles.ball} ${styles.ball1}`}></div>
               <div className={`${styles.ball} ${styles.ball2}`}></div>
@@ -29,7 +29,7 @@ export default function Home() {
                   <div className={styles.pacmanBottom}></div>
               </div>
           </div>
-          <p>Start!!! <Link href='/Main'><a>&rarr;</a></Link></p>
+          <p className={styles.welcome}>Start!!! <Link href='/Main'><a className={styles.arrow}>&rarr;</a></Link></p>
         </section>
       </>
     </div>
