@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_project_social_socials",
+  "info": {
+    "displayName": "social",
+    "icon": "user",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "github": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "twitter": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "blog": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "linkbio": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "codepen": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    }
+  }
+}

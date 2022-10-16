@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_project_link_links",
+  "info": {
+    "displayName": "links",
+    "icon": "wifi"
+  },
+  "options": {},
+  "attributes": {
+    "github": {
+      "type": "string"
+    },
+    "demo": {
+      "type": "string"
+    }
+  }
+}

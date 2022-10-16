@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "outros",
+  "info": {
+    "singularName": "outro",
+    "pluralName": "outros",
+    "displayName": "outro",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "findMe": {
+      "type": "component",
+      "repeatable": false,
+      "component": "project-social.social",
+      "required": true
+    },
+    "outro": {
+      "type": "richtext"
+    },
+    "available": {
+      "type": "richtext"
+    }
+  }
+}
