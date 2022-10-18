@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link'
 import styles from './Navbar.module.css'
 
 const Navbar = () => {
@@ -8,17 +7,11 @@ const Navbar = () => {
         <div className="container flex items-center justify-center p-6 mx-auto text-gray-600 capitalize dark:text-gray-300">
           
             {/* menu items */}
-            <Link href=''>
             <a className="border-b-2 border-transparent hover:text-blue-600 hover:border-red-800 transition-colors duration-300 transform dark:text-gray-200 mx-1.5 sm:mx-6 ">About</a>
-            </Link>
 
-            <Link href=''>
             <a className="border-b-2 border-transparent hover:border-pink-800 hover:text-indigo-600 transition-colors duration-300 transform mx-1.5 sm:mx-6">Skills</a>
-            </Link>
 
-            <Link href=''>
             <a className="hover:border-blue-800 border-b-2 border-transparent hover:text-pink-600 transition-colors duration-300 transform mx-1.5 sm:mx-6">Work</a>
-            </Link>
         </div>
     </nav>
   )
