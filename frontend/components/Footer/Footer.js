@@ -8,7 +8,6 @@ const Footer = () => {
             <div className={`${styles.col12} ${styles.textCenter} ${styles.author}`}>
                 
             {/* logo */}
-            <span className='relative top-2'>&trade;</span>
             <div className='flex justify-center mb-5 align-middle'>
                 <img
                 src='/logo1.png'
