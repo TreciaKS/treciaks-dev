@@ -142,7 +142,7 @@
     font-style: italic;
     font-size: 1.3em;
     font-weight: 800;
-    animation-delay: 8s;
+    animation-delay: 7s;
     visibility: hidden;
   }
 .welcome {
@@ -201,4 +201,7 @@
       text-shadow: 0 0 4px rgb(255, 0, 140), 0 0 8px rgb(0, 106, 255);
     }
 }
-  
+
+/* responsie pacman */
+
+/* responsive welcome text */
