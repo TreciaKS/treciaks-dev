@@ -13,7 +13,7 @@ const Footer = () => {
                 src='/logo1.png'
                 width='40px'
                 height='40px'
-                className="mr-10 transition-colors duration-300 transform" />
+                className="transition-colors duration-300 transform mr-15" />
             </div>
             
             TM &amp; &copy; 2022 2023 TreciaKS.

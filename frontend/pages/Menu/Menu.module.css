@@ -1,3 +1,6 @@
+.container {
+  margin-top: 60px; 
+}
 .wrap {
     width: 100%;
     max-width: 320px;
@@ -14,13 +17,19 @@
   .link {
     padding: 14px;
     display: block;
-    background-color: #9466FF;
     text-align: center;
     text-decoration: none;
     border-radius: 4px;
     transition: ease all 0.3s;
-    color: #FFF;
+    color: rgb(255, 255, 255, .4);
+    /* border: 2px solid rgb(0, 42, 255); */
+    background: #262c37;
+    letter-spacing: .1em;
+    transition: .1s;
   }
   .link:hover {
-    opacity: 0.9;
+    color: rgb(230, 0, 255);
+    letter-spacing: .25em;
+    cursor: pointer;
+    border: 4px double rgb(230, 0, 255);
   }

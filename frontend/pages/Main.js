@@ -1,6 +1,10 @@
 import React from 'react'
 import Head from 'next/head'
-import Navbar from '../components/Navbar'
+import Navbar from '../components/Navbar/Navbar'
+import Footer from '../components/Footer/Footer'
+import Ghost from '../components/Ghost/Ghost'
+import Menu from './Menu/Menu'
+// import Link from 'next/link'
 
 function Main() {
   return (
@@ -18,8 +22,10 @@ function Main() {
       
       <>
       <Navbar />
-        <h1 className='text-red-200'>Hello  There</h1>
-        </>
+      <Ghost />
+      <Menu />
+      <Footer/>
+      </>
     </div>
   )
 }
