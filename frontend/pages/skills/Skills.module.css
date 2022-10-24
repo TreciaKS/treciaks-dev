@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Codystar&family=Eater&family=Flavors&family=Jacques+Francois+Shadow&display=swap');
+
+.section {
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 30px;
+  }
+  .sectionTitle {
+    position: relative;
+    font-size: var(--h2-font-size);
+    color: rgb(255, 0, 242);
+    margin: var(--mb-4) 0;
+    text-align: center;
+    font-family: 'Codystar', 'Jacques Francois Shadow', cursive;
+  }
+  .sectionTitle::after {
+    position: absolute;
+    content: "";
+    width: 32px;
+    height: 32px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 2rem;
+    background-color: black;
+  }
+
+/* skills section */
+.skillsContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+  }
+   .skillsName {
+    display: inline-block;
+    font-size: 20px;
+    padding: .25rem .15rem;
+    border: 5px dotted rgb(226, 43, 195);
+    border-radius: 45px;
+    margin: 15px 10px;
+    box-shadow: 0 0 5px rgb(226, 43, 195), 0 0 5px rgb(226, 43, 195);
+    letter-spacing: .3em;
+  }
+  .skillsBox span {
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  .img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px 10px;
+    color: white;
+  }
+  .back {
+    margin-top: 30px;
+    box-shadow: 0 0 5px rgb(70, 248, 0), 0 0 5px rgb(145, 255, 0);
+    padding: 0 10px;
+    transition: .2s;
+  }
+  .forward {
+    box-shadow: 0 0 5px rgb(0, 240, 248), 0 0 5px rgb(0, 255, 247);
+    margin-top: 30px;
+    transition: .2s;
+  }
+  .back:hover , .forward:hover {
+    box-shadow: 0 0 5px rgb(248, 227, 0), 0 0 5px rgb(255, 213, 0);
+    letter-spacing: .25em;
+  }
