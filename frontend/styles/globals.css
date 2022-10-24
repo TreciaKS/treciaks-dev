@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Codystar&family=Eater&family=Flavors&family=Jacques+Francois+Shadow&display=swap');
-
 * {
     padding: 0;
     margin: 0;
@@ -16,4 +14,8 @@
 html {
   scroll-behavior: smooth;
   background-color: #000;
+}
+button {
+  padding: 10px 25px;
+  font-size: 1.3em;
 }
