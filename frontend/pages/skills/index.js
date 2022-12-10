@@ -17,8 +17,8 @@ const Skills = () => {
                 <span class={styles.skillsName}>Responsive Web Design</span>
                 <br />
                 <div className={styles.buttons}>
-                  <Link href='/Main'><button class={styles.back}>&larr; Back</button></Link>
-                  <Link href='/Projects'><button class={styles.forward}>Projects &rarr;</button></Link>
+                  <Link href='/Main'><button class={styles.back}>Back</button></Link>
+                  <Link href='/Projects'><button class={styles.forward}>Projects</button></Link>
                 </div>
               </div>
 
