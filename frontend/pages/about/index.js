@@ -43,11 +43,11 @@ const about = () => {
                       <p className="text-gray-600 dark:text-gray-300">Marketing Manager at Stech</p>
 
                       <div className="flex items-center justify-between mt-12 lg:justify-start">
-                          <button className="p-2 px-4 py-2 text-gray-200 transition-colors duration-300 border border-teal-700 rounded-full rtl:-scale-x-100 lg:mx-6 hover:text-teal-700">
-                             <Link href={'/'}>Home</Link>
+                          <button className="px-4 py-2 text-gray-200 transition-colors duration-300 border border-teal-700 rounded-full rtl:-scale-x-100 lg:mx-0 hover:text-teal-700">
+                             <Link href={'/Main'}>Home</Link>
                           </button>
 
-                          <button className="p-2 px-4 py-2 text-gray-200 transition-colors duration-300 border border-indigo-700 rounded-full rtl:-scale-x-100 lg:mx-6 hover:text-indigo-700">
+                          <button className="px-4 py-2 text-gray-200 transition-colors duration-300 border border-indigo-700 rounded-full rtl:-scale-x-100 lg:mx-6 hover:text-indigo-700">
                              <Link href={'/skills'}> Skills</Link>
                           </button>
                       </div>
