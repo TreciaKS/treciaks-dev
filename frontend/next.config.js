@@ -4,6 +4,14 @@ module.exports = async (phase, { defaultConfig }) => {
    */
   const nextConfig = {
     /* config options here */
+    images: {
+      remotePatterns: [
+        {
+          protocol: 'https',
+          hostname: 'images.unsplash.com',
+        },
+      ],
+    },
   }
   return nextConfig
 }
