@@ -38,15 +38,13 @@
    .skillsName {
     display: inline-block;
     font-size: 20px;
-    padding: .25rem .15rem;
-    border: 5px dotted rgb(226, 43, 195);
+    border: 5px dotted rgb(120, 120, 120);
     border-radius: 45px;
-    margin: 15px 10px;
-    box-shadow: 0 0 5px rgb(226, 43, 195), 0 0 5px rgb(226, 43, 195);
+    margin: 10px 10px;
     letter-spacing: .3em;
   }
   .skillsBox span {
-    padding: 20px;
+    padding: 15px;
     color: #fff;
     text-align: center;
   }
@@ -62,19 +60,24 @@
     width: 100%;
     padding: 10px 10px;
     color: white;
+    border-radius: 25%;
   }
   .back {
     margin-top: 30px;
-    box-shadow: 0 0 5px rgb(70, 248, 0), 0 0 5px rgb(145, 255, 0);
-    padding: 0 10px;
+    padding: 10px 20px;
     transition: .2s;
+    border: 1px solid rgb(0, 234, 255);
+    border-radius: 100px;
   }
   .forward {
-    box-shadow: 0 0 5px rgb(0, 240, 248), 0 0 5px rgb(0, 255, 247);
     margin-top: 30px;
     transition: .2s;
+    border: 1px solid rgb(225, 177, 5);
+    border-radius: 100px;
   }
-  .back:hover , .forward:hover {
-    box-shadow: 0 0 5px rgb(248, 227, 0), 0 0 5px rgb(255, 213, 0);
-    letter-spacing: .25em;
+  .forward:hover {
+    color: rgb(225, 177, 5);
+  }
+  .back:hover {
+    color: rgb(0, 234, 255);
   }
