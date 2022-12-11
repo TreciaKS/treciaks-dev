@@ -9,7 +9,7 @@
 	display: flex;
 	margin: 0 auto;
 	flex-direction: row;
-	animation: slideLeft 8s ease-in-out;
+	/* animation: slideLeft 8s ease-in-out; */
 	transition: all .1s;
 }
 @keyframes slideLeft {
