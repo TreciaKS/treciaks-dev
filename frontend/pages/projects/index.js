@@ -125,14 +125,14 @@ const Projects = () => {
 
         <div className="grid grid-cols-2 gap-16 mt-10 text-center lg:grid-cols-2">
           <button
-            className="w-32 px-4 py-4 ml-5 text-white transition border rounded-full border-emerald-600 hover:text-emerald-600 focus:outline-none focus:no-ring active:text-emerald-500"
+            className="w-32 px-4 py-4 ml-5 text-white transition border rounded-full border-fuchsia-600 hover:text-fuchsia-600 focus:outline-none focus:no-ring active:text-fuchsia-500"
           >
             <Link href='/Main'><span className="text-sm font-medium">Home</span></Link>
         </button>
           <button
-            className="absolute w-32 py-4 text-white transition border border-yellow-600 rounded-full right-40 hover:text-yellow-600 focus:outline-none focus:no-ring active:text-yellow-500"
+            className="absolute w-32 py-4 text-white transition border border-teal-600 rounded-full right-40 hover:text-teal-600 focus:outline-none focus:no-ring active:text-teal-500"
           >
-            <Link href='/projects'><span className="text-sm font-medium">Projects</span></Link>
+            <Link href='/videos'><span className="text-sm font-medium">Videos</span></Link>
         </button>
       </div>
       </div>
