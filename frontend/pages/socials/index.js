@@ -43,7 +43,7 @@ const Socials = () => {
                 </div>
                 
                 <Link href="/Main">
-                    <p className="flex justify-center ml-16 mt-8 border border-indigo-400 rounded-full shadow-indigo-600 shadow-md mx-1.5 hover:text-indigo-500 text-indigo-400 transition-colors duration-300 transform px-4 h-10 w-32 text-center pt-2">Home</p>
+                    <p className="flex justify-center ml-16 mt-8 border cursor-pointer border-indigo-400 rounded-full shadow-indigo-600 shadow-md mx-1.5 hover:text-indigo-500 text-indigo-400 transition-colors duration-300 transform px-4 h-10 w-32 text-center pt-2">Home</p>
                 </Link>
             </div>
         </div>
