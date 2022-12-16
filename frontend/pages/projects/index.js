@@ -6,22 +6,16 @@ const Projects = () => {
   return (
     <section className="text-gray-600 bg-black">
       <div className="container px-5 py-10 mx-auto">
-        
+
         <div className="flex flex-col w-full mb-20 text-center">
           <h1 className="mb-4 text-2xl font-medium text-teal-300 sm:text-3xl title-font">Master Cleanse Reliac Heirloom</h1>
           <p className="mx-auto text-base leading-relaxed text-gray-400 lg:w-2/3">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
         </div>
-        
+
         <div className="grid grid-cols-1 gap-16 mb-1 text-center lg:grid-cols-2">
           <div className="relative p-4">
             <div className="relative flex">
-                  <Image
-                    src="https://plus.unsplash.com/premium_photo-1663954134413-5c00af4b5b22?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGFjJTIwbWFufGVufDB8fDB8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60"
-                    alt="Picture of the author"
-                    width={500}
-                    height={500}
-                    classNameName='absolute inset-0 object-cover object-center w-full h-full'
-                  />
+              <img alt="gallery" className="absolute inset-0 object-cover object-center w-full h-full" src="https://plus.unsplash.com/premium_photo-1663954134413-5c00af4b5b22?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGFjJTIwbWFufGVufDB8fDB8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60" />
               <div className="relative z-10 w-full px-8 py-10 transition bg-black border-4 shadow-md opacity-0 rounded-xl border-blue-400/70 shadow-indigo-500/100 hover:opacity-95">
                 <div className="absolute top-0">
                   <a href="#" className="mx-2 text-white transition-colors duration-300 hover:text-blue-400" aria-label="Github">
@@ -48,13 +42,7 @@ const Projects = () => {
           </div>
           <div className="relative p-4">
             <div className="relative flex">
-                  <Image
-                    src="https://plus.unsplash.com/premium_photo-1663954134413-5c00af4b5b22?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGFjJTIwbWFufGVufDB8fDB8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60"
-                    alt="Picture of the author"
-                    width={500}
-                    height={500}
-                    classNameName='absolute inset-0 object-cover object-center w-full h-full'
-                  />
+              <img alt="gallery" className="absolute inset-0 object-cover object-center w-full h-full" src="https://plus.unsplash.com/premium_photo-1663954134413-5c00af4b5b22?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGFjJTIwbWFufGVufDB8fDB8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60" />
               <div className="relative z-10 w-full px-8 py-10 transition bg-black border-4 shadow-md opacity-0 rounded-xl border-pink-400/70 shadow-indigo-500/100 hover:opacity-95">
                 <div className="absolute top-0">
                   <a href="#" className="mx-2 text-white transition-colors duration-300 hover:text-pink-400" aria-label="Github">
@@ -81,13 +69,7 @@ const Projects = () => {
           </div>
           <div className="relative p-4">
             <div className="relative flex">
-                  <Image
-                    src="https://plus.unsplash.com/premium_photo-1663954134413-5c00af4b5b22?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGFjJTIwbWFufGVufDB8fDB8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60"
-                    alt="Picture of the author"
-                    width={500}
-                    height={500}
-                    classNameName='absolute inset-0 object-cover object-center w-full h-full'
-                  />
+              <img alt="gallery" className="absolute inset-0 object-cover object-center w-full h-full" src="https://plus.unsplash.com/premium_photo-1663954134413-5c00af4b5b22?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGFjJTIwbWFufGVufDB8fDB8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60" />
               <div className="relative z-10 w-full px-8 py-10 transition bg-black border-4 shadow-md opacity-0 rounded-xl border-lime-400/70 shadow-orange-500/100 hover:opacity-95">
                 <div className="absolute top-0">
                   <a href="#" className="mx-2 text-white transition-colors duration-300 hover:text-lime-400" aria-label="Github">
@@ -114,13 +96,7 @@ const Projects = () => {
           </div>
           <div className="relative p-4">
             <div className="relative flex">
-                  <Image
-                    src="https://plus.unsplash.com/premium_photo-1663954134413-5c00af4b5b22?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGFjJTIwbWFufGVufDB8fDB8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60"
-                    alt="Picture of the author"
-                    width={500}
-                    height={500}
-                    classNameName='absolute inset-0 object-cover object-center w-full h-full'
-                  />
+              <img alt="gallery" className="absolute inset-0 object-cover object-center w-full h-full" src="https://plus.unsplash.com/premium_photo-1663954134413-5c00af4b5b22?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGFjJTIwbWFufGVufDB8fDB8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60" />
               <div className="relative z-10 w-full px-8 py-10 transition bg-black border-4 shadow-md opacity-0 rounded-xl border-violet-400/70 shadow-red-500/100 hover:opacity-95">
                 <div className="absolute top-0">
                   <a href="#" className="mx-2 text-white transition-colors duration-300 hover:text-violet-400" aria-label="Github">
@@ -146,19 +122,19 @@ const Projects = () => {
             </div>
           </div>
         </div>
-      </div>
 
-      <div className="grid grid-cols-2 gap-16 mb-1 text-center lg:grid-cols-2">
+        <div className="grid grid-cols-2 gap-16 mt-10 text-center lg:grid-cols-2">
           <button
-            className="w-32 px-4 py-4 text-white transition border rounded-full border-cyan-600 hover:text-cyan-600 focus:outline-none focus:no-ring active:text-cyan-500"
+            className="w-32 px-4 py-4 ml-5 text-white transition border rounded-full border-emerald-600 hover:text-emerald-600 focus:outline-none focus:no-ring active:text-emerald-500"
           >
             <Link href='/Main'><span className="text-sm font-medium">Home</span></Link>
         </button>
           <button
-            className="absolute right-0 w-32 py-4 text-white transition border rounded-fchsiaull border-fu-600 hover:text-fuchsia-600 focus:outline-none focus:no-ring active:text-fuchsia-500"
+            className="absolute w-32 py-4 text-white transition border border-yellow-600 rounded-full right-40 hover:text-yellow-600 focus:outline-none focus:no-ring active:text-yellow-500"
           >
-            <Link href='/videos'><span className="text-sm font-medium">Videos</span></Link>
+            <Link href='/projects'><span className="text-sm font-medium">Projects</span></Link>
         </button>
+      </div>
       </div>
     </section>
   )
