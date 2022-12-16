@@ -6,8 +6,9 @@ const Socials = () => {
   return (
     <section className="flex min-h-screen text-center bg-black ">
         <div className="flex flex-col items-center justify-center w-full p-8">
-            <h1 className="text-3xl font-semibold capitalize text-fuchsia-500 lg:text-5xl">Reach Out, 200?</h1>
+
             <Ghost />
+            <h1 className="text-3xl font-semibold capitalize text-fuchsia-500 lg:text-5xl">Reach Out, 200?</h1>
 
             <div className="mt-4 text-lg text-gray-500 lg:w-1/2 ">
               <p>I'd like to do more speaking engagements around frontend development, developer relations, JAMstack, content creation, community management and CSS.</p>
@@ -16,7 +17,7 @@ const Socials = () => {
               </p>
             </div>
             
-          <div className="mt-6 md:mt-8">
+          <div className="relative mt-6 md:mt-8">
                 <div className="mt-4 -mx-1.5 flex items-center space-x-6">
                     <a className="border border-cyan-400 rounded-full shadow-cyan-600 shadow-md mx-1.5 hover:text-cyan-500 text-cyan-400 transition-colors duration-300 transform" href="#">
                         <svg className="h-16 fill-current" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -40,21 +41,12 @@ const Socials = () => {
                         </svg>
                     </a>
                 </div>
+                
+                <Link href="/Main">
+                    <p className="flex justify-center ml-16 mt-8 border border-indigo-400 rounded-full shadow-indigo-600 shadow-md mx-1.5 hover:text-indigo-500 text-indigo-400 transition-colors duration-300 transform px-4 h-10 w-32 text-center pt-2">Home</p>
+                </Link>
             </div>
         </div>
-
-        <div className="grid grid-cols-2 gap-16 mb-1 text-center lg:grid-cols-2">
-          <button
-            className="w-32 px-4 py-4 text-white transition border border-orange-600 rounded-full hover:text-orange-600 focus:outline-none focus:no-ring active:text-orange-500"
-          >
-            <Link href='/Main'><span className="text-sm font-medium">Home</span></Link>
-        </button>
-          <button
-            className="absolute right-0 w-32 py-4 text-white transition border rounded-fchsiaull border-fu-600 hover:text-emerald-600 focus:outline-none focus:no-ring active:text-emerald-500"
-          >
-            <Link href='/'><span className="text-sm font-medium">Pac Man</span></Link>
-        </button>
-      </div>
     </section>
   )
 }
