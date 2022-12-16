@@ -13,7 +13,7 @@ const Socials = () => {
             <div className="mt-4 text-lg text-gray-500 lg:w-1/2 ">
               <p>I'd like to do more speaking engagements around frontend development, developer relations, JAMstack, content creation, community management and CSS.</p>
               <p className="mt-4">Got an open source project, want to collaborate? 
-                <a href=" " className="text-sky-400">Ping me</a>!
+                <a href=" " className="text-sky-400"> Ping me</a>!
               </p>
             </div>
             
