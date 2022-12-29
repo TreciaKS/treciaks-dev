@@ -12,7 +12,7 @@ const Projects = () => {
           <p className="mx-auto text-base leading-relaxed text-gray-400 lg:w-2/3">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
         </div>
 
-        <div className="grid grid-cols-1 gap-16 mb-1 text-center lg:grid-cols-2">
+        <div className="grid grid-cols-1 gap-12 mb-1 text-center lg:grid-cols-3">
           <div className="relative p-4">
             <div className="relative flex">
               <img alt="gallery" className="absolute inset-0 object-cover object-center w-full h-full" src="https://plus.unsplash.com/premium_photo-1663954134413-5c00af4b5b22?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGFjJTIwbWFufGVufDB8fDB8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60" />
