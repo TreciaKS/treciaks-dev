@@ -2,10 +2,11 @@ import React from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import styles from './About.module.css'
 
 const about = () => {
   return (
-    <section className="">
+    <section>
       <Head>
         <title>Trecia Kat's Personal Portfolio</title>
         <meta name="description" content="Trecia Kat @TreciaKS Personal Portfolio Website" />
@@ -17,11 +18,11 @@ const about = () => {
         <link rel="icon" href="/logo1.png" />
       </Head>
       
-      <main className="flex items-center justify-center bg-black">
-          <div className="px-6 py-10 mx-auto lg:mt-32 md:mt-20">
+      <main className={styles.container}>
+          <div className="px-6 py-10 mx-auto lg:mt-12 md:mt-20">
               <div className="lg:-mx-6 lg:flex lg:items-center">
                   <Image
-                    src="https://images.unsplash.com/photo-1499470932971-a90681ce8530?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1470&amp;q=80"
+                    src="/treciaks.png"
                     alt="Picture of the author"
                     width={500}
                     height={500}
