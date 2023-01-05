@@ -151,7 +151,7 @@
     justify-content: center;
     position: relative;
     left: 20%;
-    font-size: 7rem;
+    font-size: 8vw;
     text-shadow: 0 0 8px rgb(247, 0, 210), 0 0 10px rgb(236, 0, 79);
     transform: rotate(-90deg);
     animation: appear 2s forwards linear;
