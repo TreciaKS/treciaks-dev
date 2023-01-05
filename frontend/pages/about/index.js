@@ -19,42 +19,32 @@ const about = () => {
       </Head>
       
       <main className={styles.container}>
-          <div className="px-6 py-10 mx-auto lg:mt-12 md:mt-20">
-              <div className="lg:-mx-6 lg:flex lg:items-center">
-                  <Image
-                    src="/treciaks.png"
-                    alt="Picture of the author"
-                    width={500}
-                    height={500}
-                    className='object-cover object-center lg:w-1/2 lg:mx-6 w-full h-96 rounded-full lg:h-[36rem] shadow shadow-amber-900'
-                  />
-
-                  <div className="mt-8 lg:w-1/2 lg:px-6 lg:mt-0">
-                      <h1 className="text-3xl font-semibold text-violet-600 lg:text-4xl lg:w-96">
-                          Help us improve our productivity 🐜
-                      </h1>
-
-                      <p className="max-w-lg mt-6 text-gray-500 dark:text-gray-400 ">
-                          “ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quibusdam ducimus libero ad
-                          tempora doloribus expedita laborum saepe voluptas perferendis delectus assumenda rerum, culpa
-                          aperiam dolorum, obcaecati corrupti aspernatur a. ”
-                      </p>
-
-                      <h3 className="mt-6 text-lg font-medium text-yellow-500">Mia Brown</h3>
-                      <p className="text-gray-600 dark:text-gray-300">Marketing Manager at Stech</p>
-
-                      <div className="flex items-center justify-between mt-12 lg:justify-start">
-                          <button className="px-6 py-4 text-gray-200 transition-colors duration-300 border border-teal-700 rounded-full rtl:-scale-x-100 lg:mx-0 hover:text-teal-700">
-                             <Link href={'/Main'}>Home</Link>
-                          </button>
-
-                          <button className="px-6 py-4 text-gray-200 transition-colors duration-300 border border-indigo-700 rounded-full rtl:-scale-x-100 lg:mx-6 hover:text-indigo-700">
-                             <Link href={'/skills'}> Skills</Link>
-                          </button>
-                      </div>
-                  </div>
-              </div>
+        <section className="text-gray-600 body-font">
+          <div className="container px-5 py-24 mx-auto">
+            <div className="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="inline-block w-8 h-8 text-gray-400 mb-8" viewBox="0 0 975.036 975.036">
+                <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+              </svg>
+              <p className="leading-relaxed text-lg">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware. Man bun next level coloring book skateboard four loko knausgaard. Kitsch keffiyeh master cleanse direct trade indigo juice before they sold out gentrify plaid gastropub normcore XOXO 90's pickled cindigo jean shorts. Slow-carb next level shoindigoitch ethical authentic, yr scenester sriracha forage franzen organic drinking vinegar.</p>
+              <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-8 mb-6"></span>
+              <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">HOLDEN CAULFIELD</h2>
+              <p className="text-gray-500">Senior Product Designer</p>
+            </div>
           </div>
+          <div className="grid grid-cols-2 gap-16 mt-10 text-center lg:grid-cols-2">
+          <button
+            className="w-32 px-4 py-4 ml-5 text-white transition border rounded-full border-fuchsia-600 hover:text-fuchsia-600 focus:outline-none focus:no-ring active:text-fuchsia-500"
+          >
+            <Link href='/Main'><span className="text-sm font-medium">Home</span></Link>
+        </button>
+          <button
+            className="absolute w-32 py-4 text-white transition border border-teal-600 rounded-full right-40 hover:text-teal-600 focus:outline-none focus:no-ring active:text-teal-500"
+          >
+            <Link href='/videos'><span className="text-sm font-medium">Videos</span></Link>
+        </button>
+      </div>
+        </section>
+        
       </main>
     </section>
   )
