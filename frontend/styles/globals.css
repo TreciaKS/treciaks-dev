@@ -14,6 +14,7 @@
 html {
   scroll-behavior: smooth;
   background-color: #000;
+  overflow: hidden;
 }
 button {
   padding: 10px 25px;
