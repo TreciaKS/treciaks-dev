@@ -18,7 +18,7 @@ export default function Home() {
 
       <>
         <section className={styles.container}>
-          <div>
+          <div className={styles.wrapper}>
               <div className={`${styles.ball} ${styles.ball1}`}></div>
               <div className={`${styles.ball} ${styles.ball2}`}></div>
               <div className={`${styles.ball} ${styles.ball3}`}></div>
