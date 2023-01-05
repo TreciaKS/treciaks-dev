@@ -1,7 +1,7 @@
 /* Pacman's food' */
 .ball {
   position: relative;
-  left: 130%;
+  left: 10%;
   margin: 65px;
   height: 50px;
   width: 50px;
@@ -24,13 +24,15 @@
       animation: hidden4 3s forwards linear;
   }
   .container {
-    display: flex;
+    display: grid;
     justify-content: center;
+    position: relative;
     align-items: center;
-    /* position: relative; */
-    align-items: center;
-    height: 100vh;
     transform: rotate(90deg);
+    }
+    .wrapper {
+        display: grid;
+        justify-content: center;
     }
   /* ball animation */
   @keyframes hidden1 {
@@ -147,14 +149,12 @@
   }
 .welcome {
     font-family: 'DotGothic16', sans-serif;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    left: 20%;
+    position: absolute;
+    left: 35%;
     font-size: 8vw;
-    text-shadow: 0 0 8px rgb(247, 0, 210), 0 0 10px rgb(236, 0, 79);
+    text-align: center;
     transform: rotate(-90deg);
-    animation: appear 2s forwards linear;
+    animation: appear 3s forwards linear;
     transition: all 3s;
     animation-delay: 4.5s;
     visibility: hidden;
@@ -162,15 +162,13 @@
 /* welcome start text appears */
 @keyframes appear {
   50% {
-      text-shadow: 0 0 8px rgb(123, 0, 255), 0 0 10px rgb(236, 0, 35);
       color: rgb(0, 0, 0);
-      left: 5%;
+      visibility: visible;
   }
   100% {
       text-shadow: 0 0 10px rgb(170, 3, 189), 0 0 30px rgb(149, 0, 172);
       color: rgb(191, 0, 255);
       visibility: visible;
-      left: -10%;
   }
 }
 /* arrow slides */
