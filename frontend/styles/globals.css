@@ -14,9 +14,13 @@
 html {
   scroll-behavior: smooth;
   background-color: #000;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 button {
   padding: 10px 25px;
   font-size: 1.3em;
+}
+::-webkit-scrollbar {
+  width: 0px;
+  background-color: #000;
 }
