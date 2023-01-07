@@ -4,8 +4,8 @@ import Link from 'next/link'
 
 const Projects = () => {
   return (
-    <section className="text-gray-600 bg-black">
-      <div className="container px-5 py-10 mx-auto">
+    <section className="text-gray-600 bg-black relative">
+      <div className="container px-5 py-10 mx-auto relative">
 
         <div className="flex flex-col w-full mb-20 text-center">
           <h1 className="mb-4 text-2xl font-medium text-teal-300 sm:text-3xl title-font">Master Cleanse Reliac Heirloom</h1>
@@ -123,18 +123,19 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 gap-16 mt-10 text-center lg:grid-cols-2">
+        
+      </div>
+      <div className="text-center flex justify-between mx-auto container">
           <button
             className="w-32 px-4 py-4 ml-5 text-white transition border rounded-full border-fuchsia-600 hover:text-fuchsia-600 focus:outline-none focus:no-ring active:text-fuchsia-500"
           >
             <Link href='/Main'><span className="text-sm font-medium">Home</span></Link>
         </button>
           <button
-            className="absolute w-32 py-4 text-white transition border border-teal-600 rounded-full right-40 hover:text-teal-600 focus:outline-none focus:no-ring active:text-teal-500"
+            className="w-32 py-4 mr-5 text-white transition border border-teal-600 rounded-full right-40 hover:text-teal-600 focus:outline-none focus:no-ring active:text-teal-500"
           >
             <Link href='/videos'><span className="text-sm font-medium">Videos</span></Link>
         </button>
-      </div>
       </div>
     </section>
   )

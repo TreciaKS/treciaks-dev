@@ -31,7 +31,7 @@ const about = () => {
               <p className="text-gray-500">Senior Product Designer</p>
             </div>
           </div>
-          <div className="lg:grid lg:gap-16  w-screen  text-center lg:grid-cols-2 flex justify-between ">
+          <div className=" text-center flex justify-between mx-auto container">
           <button
             className="w-32 px-4 py-4 ml-5 text-white transition border rounded-full border-fuchsia-600 hover:text-fuchsia-600 focus:outline-none focus:no-ring active:text-fuchsia-500"
           >
