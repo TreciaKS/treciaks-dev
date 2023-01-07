@@ -19,7 +19,7 @@ const about = () => {
       </Head>
       
       <main className={styles.container}>
-        <section className="text-gray-600 body-font border-2 border-red-500 relative">
+        <section className="text-gray-600 body-font relative">
           <div className="container px-5 py-16 mx-auto">
             <div className="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
               <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="inline-block w-8 h-8 text-gray-400 mb-8" viewBox="0 0 975.036 975.036">
