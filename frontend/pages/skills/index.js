@@ -42,27 +42,30 @@ const Skills = () => {
 
               <div className="relative px-3 py-1 mx-auto mt-20 max-w-7xl">
                   <h1 className="text-3xl font-bold leading-tight text-center mb-7 text-emerald-500 md:text-4xl">Tech Stack</h1>
-                    <div className="grid grid-cols-2 mb-16 text-center gap-7 lg:grid-cols-7 md:grid-cols-4">
+                    <div className="grid grid-cols-2 mb-16 text-center gap-7 lg:grid-cols-4 md:grid-cols-4">
                           <div className="flex items-center justify-center p-4 border-2 border-white border-dashed shadow-md rounded-xl">
-                            <p className="-mx-2 text-sm font-bold text-center text-white">JavaScript</p>
+                            <p className="-mx-2 text-md font-bold text-center text-white">JavaScript</p>
                           </div>
                           <div className="p-4 border-2 border-white border-dashed shadow-md rounded-xl">
-                            <p className="-mx-2 text-sm font-bold text-center text-white">HTML</p>
+                            <p className="-mx-2 text-md font-bold text-center text-white">HTML</p>
                           </div>
                           <div className="p-4 border-2 border-white border-dashed shadow-md rounded-xl">
-                            <p className="-mx-2 text-sm font-bold text-center text-white">CSS</p>
+                            <p className="-mx-2 text-md font-bold text-center text-white">CSS</p>
                           </div>
                           <div className="p-4 border-2 border-white border-dashed shadow-md rounded-xl">
-                            <p className="-mx-2 text-sm font-bold text-center text-white">Next.js</p>
+                            <p className="-mx-2 text-md font-bold text-center text-white">Next.js</p>
                           </div>
                           <div className="p-4 border-2 border-white border-dashed shadow-md rounded-xl">
-                            <p className="-mx-2 text-sm font-bold text-center text-white">TypeScript</p>
+                            <p className="-mx-2 text-md font-bold text-center text-white">TypeScript</p>
                           </div>
                           <div className="p-4 border-2 border-white border-dashed shadow-md rounded-xl">
-                            <p className="-mx-2 text-sm font-bold text-center text-white">React</p>
+                            <p className="-mx-2 text-md font-bold text-center text-white">React.js</p>
                           </div>
                           <div className="p-4 border-2 border-white border-dashed shadow-md rounded-xl">
-                            <p className="-mx-2 text-sm font-bold text-center text-white">Tailwind CSS</p>
+                            <p className="-mx-2 text-md font-bold text-center text-white">Tailwind CSS</p>
+                          </div>
+                          <div className="p-4 border-2 border-white border-dashed shadow-md rounded-xl">
+                            <p className="-mx-2 text-md font-bold text-center text-white">REST APIs</p>
                           </div>
                       </div>
 
