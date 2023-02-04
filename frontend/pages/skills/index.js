@@ -12,7 +12,7 @@ const Skills = () => {
               </div>
               
 
-              <div className="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3">
+              <div className="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3 tracking-wide">
                   <div className="block p-8 transition border shadow-md rounded-xl border-teal-400/70 shadow-lime-500/100">
                     <h2 className="mt-4 text-xl font-bold text-teal-500">Frontend Developer</h2>
 
