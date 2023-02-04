@@ -17,24 +17,22 @@ const Skills = () => {
                     <h2 className="mt-4 text-xl font-bold text-teal-500">Frontend Developer</h2>
 
                     <p className="mt-1 text-md text-gray-300">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
-                      possimus adipisci distinctio alias voluptatum blanditiis laudantium.
+                      Your friendly webhood Spiderman with a passion to build pixel-perfect and creative sites using latest technoloigies as my web shooters.
+                      Always on the lookout for sticky challenges to better my web skills. Just like Tony Stark, I'm always learning.
                     </p>
                   </div>
                   <div className="block p-8 transition border shadow-md rounded-xl border-blue-400/70 shadow-teal-500/100">
                     <h2 className="mt-4 text-xl font-bold text-blue-500">Developer Advocate</h2>
 
                     <p className="mt-1 text-md text-gray-300">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
-                      possimus adipisci distinctio alias voluptatum blanditiis laudantium.
+                      A tech whisperer, bridging the gap between developer communities and technoloigies. Having my own way to express complex tech concepts into simple terms. I love to educate and spreading the word about cutting edge tech. All to make the web a better place.
                     </p>
                   </div>
                   <div className="block p-8 transition border shadow-md rounded-xl border-pink-400/70 shadow-indigo-500/100">
                     <h2 className="mt-4 text-xl font-bold text-pink-500">Content Creator</h2>
 
                     <p className="mt-1 text-md text-gray-300">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
-                      possimus adipisci distinctio alias voluptatum blanditiis laudantium.
+                      Authentic and witty are my superpower when infused with words. I craft content that aims not only to entertain but to educate or be a source of - food for thought. Inject some fun into your content, let's make information enjoyable!
                     </p>
                   </div>
               </div>
