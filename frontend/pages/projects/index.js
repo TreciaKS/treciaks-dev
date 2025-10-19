@@ -1,6 +1,6 @@
-import React from 'react'
-import Image from 'next/image'
-import Link from 'next/link'
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
 
 const Projects = () => {
   return (
@@ -20,7 +20,8 @@ const Projects = () => {
         <div className="grid grid-cols-1 gap-4 mx-auto mb-1 text-center sm:w-4/5 lg:grid-cols-2">
           <div className="relative p-4">
             <div className="relative flex">
-              <img
+              <Image
+              layout="fill"
                 alt="gallery"
                 className="absolute inset-0 object-cover object-center w-full h-full"
                 src="https://plus.unsplash.com/premium_photo-1663954134413-5c00af4b5b22?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGFjJTIwbWFufGVufDB8fDB8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60"
@@ -76,7 +77,8 @@ const Projects = () => {
           </div>
           <div className="relative p-4">
             <div className="relative flex">
-              <img
+              <Image
+              layout="fill"
                 alt="gallery"
                 className="absolute inset-0 object-cover object-center w-full h-full"
                 src="https://plus.unsplash.com/premium_photo-1663954134413-5c00af4b5b22?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGFjJTIwbWFufGVufDB8fDB8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60"
@@ -132,7 +134,8 @@ const Projects = () => {
           </div>
           <div className="relative p-4">
             <div className="relative flex">
-              <img
+              <Image
+              layout="fill"
                 alt="gallery"
                 className="absolute inset-0 object-cover object-center w-full h-full"
                 src="https://plus.unsplash.com/premium_photo-1663954134413-5c00af4b5b22?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGFjJTIwbWFufGVufDB8fDB8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60"
@@ -188,7 +191,8 @@ const Projects = () => {
           </div>
           <div className="relative p-4">
             <div className="relative flex">
-              <img
+              <Image
+              layout="fill"
                 alt="gallery"
                 className="absolute inset-0 object-cover object-center w-full h-full"
                 src="https://plus.unsplash.com/premium_photo-1663954134413-5c00af4b5b22?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGFjJTIwbWFufGVufDB8fDB8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60"
@@ -260,6 +264,6 @@ const Projects = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Projects
+export default Projects;

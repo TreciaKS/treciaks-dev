@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import Ghost from "../components/Ghost/Ghost";
 // @ts-ignore
 import styles from "../components/Navbar/Navbar.module.css";
@@ -14,15 +15,15 @@ const NotFoundPage = () => {
             This page will be updated once I get back into developer advocacy
             and when I am creating consistent video content. For now:
           </p>
-          <p className="py-2 mb-3 text-lg font-medium text-gray-200">
-            <a href="/" className="text-teal-300">
-              Watch PacMan Eat, AGAIN???
-            </a>{" "}
+          <p className="py-2 mb-3 text-lg font-medium text-gray-200 cursor-pointer">
+            <Link href="/">
+              <span className="text-teal-300">Watch PacMan Eat, AGAIN???</span>
+            </Link>
             <br />
             <br />
-            <a href="/Main" className="text-yellow-300">
-              Straight to Menu
-            </a>
+            <Link href="/Main">
+              <span className="text-yellow-300">Straight to Menu</span>
+            </Link>
           </p>
         </div>
       </section>
