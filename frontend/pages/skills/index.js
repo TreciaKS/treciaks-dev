@@ -61,82 +61,82 @@ const Skills = () => {
             Tech Stack
           </h1>
           <div className="grid grid-cols-2 mb-16 text-center gap-7 lg:grid-cols-4 md:grid-cols-4">
-            <div className="flex items-center justify-center p-4 border-2 border-white border-dashed shadow-md rounded-xl">
+            <div className="flex items-center justify-center p-4 border-2 border-gray-500 border-dashed shadow-md rounded-xl">
               <p className="-mx-2 font-medium text-center text-white text-md">
                 JavaScript
               </p>
             </div>
-            <div className="p-4 border-2 border-white border-dashed shadow-md rounded-xl">
+            <div className="p-4 border-2 border-gray-500 border-dashed shadow-md rounded-xl">
               <p className="-mx-2 font-medium text-center text-white text-md">
                 TypeScript
               </p>
             </div>
-            <div className="p-4 border-2 border-white border-dashed shadow-md rounded-xl">
+            <div className="p-4 border-2 border-gray-500 border-dashed shadow-md rounded-xl">
               <p className="-mx-2 font-medium text-center text-white text-md">
                 C# .NET
               </p>
             </div>
-            <div className="p-4 border-2 border-white border-dashed shadow-md rounded-xl">
+            <div className="p-4 border-2 border-gray-500 border-dashed shadow-md rounded-xl">
               <p className="-mx-2 font-medium text-center text-white text-md">
                 SQL
               </p>
             </div>
-            <div className="p-4 border-2 border-white border-dashed shadow-md rounded-xl">
+            <div className="p-4 border-2 border-gray-500 border-dashed shadow-md rounded-xl">
               <p className="-mx-2 font-medium text-center text-white text-md">
                 SQL Server / SSMS
               </p>
             </div>
-            <div className="p-4 border-2 border-white border-dashed shadow-md rounded-xl">
+            <div className="p-4 border-2 border-gray-500 border-dashed shadow-md rounded-xl">
               <p className="-mx-2 font-medium text-center text-white text-md">
                 DAPPER
               </p>
             </div>
-            <div className="p-4 border-2 border-white border-dashed shadow-md rounded-xl">
+            <div className="p-4 border-2 border-gray-500 border-dashed shadow-md rounded-xl">
               <p className="-mx-2 font-medium text-center text-white text-md">
                 HTML5
               </p>
             </div>
-            <div className="p-4 border-2 border-white border-dashed shadow-md rounded-xl">
+            <div className="p-4 border-2 border-gray-500 border-dashed shadow-md rounded-xl">
               <p className="-mx-2 font-medium text-center text-white text-md">
                 CSS3
               </p>
             </div>
-            <div className="p-4 border-2 border-white border-dashed shadow-md rounded-xl">
+            <div className="p-4 border-2 border-gray-500 border-dashed shadow-md rounded-xl">
               <p className="-mx-2 font-medium text-center text-white text-md">
                 Next.js
               </p>
             </div>
-            <div className="p-4 border-2 border-white border-dashed shadow-md rounded-xl">
+            <div className="p-4 border-2 border-gray-500 border-dashed shadow-md rounded-xl">
               <p className="-mx-2 font-medium text-center text-white text-md">
                 React.js
               </p>
             </div>
-            <div className="p-4 border-2 border-white border-dashed shadow-md rounded-xl">
+            <div className="p-4 border-2 border-gray-500 border-dashed shadow-md rounded-xl">
               <p className="-mx-2 font-medium text-center text-white text-md">
                 Tailwind CSS
               </p>
             </div>
-            <div className="p-4 border-2 border-white border-dashed shadow-md rounded-xl">
+            <div className="p-4 border-2 border-gray-500 border-dashed shadow-md rounded-xl">
               <p className="-mx-2 font-medium text-center text-white text-md">
                 Angular
               </p>
             </div>
-            <div className="p-4 border-2 border-white border-dashed shadow-md rounded-xl">
+            <div className="p-4 border-2 border-gray-500 border-dashed shadow-md rounded-xl">
               <p className="-mx-2 font-medium text-center text-white text-md">
                 Git
               </p>
             </div>
-            <div className="p-4 border-2 border-white border-dashed shadow-md rounded-xl">
+            <div className="p-4 border-2 border-gray-500 border-dashed shadow-md rounded-xl">
               <p className="-mx-2 font-medium text-center text-white text-md">
                 REST APIs
               </p>
             </div>
-            <div className="p-4 border-2 border-white border-dashed shadow-md rounded-xl">
+            <div className="p-4 border-2 border-gray-500 border-dashed shadow-md rounded-xl">
               <p className="-mx-2 font-medium text-center text-white text-md">
                 EF Core
               </p>
             </div>
-            <div className="p-4 border-2 border-white border-dashed shadow-md rounded-xl">
+            <div className="p-4 border-2 border-gray-500 border-dashed shadow-md rounded-xl">
               <p className="-mx-2 font-medium text-center text-white text-md">
                 Docker
               </p>
