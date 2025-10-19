@@ -10,194 +10,194 @@
   box-shadow: 0 0 5px var(--white-colour), 0 0 20px var(--white-colour);
   transition: all 2s;
   visibility: hidden;
-  } 
-  .ball1 {
-      animation: hidden1 1.8s forwards;
+}
+.ball1 {
+  animation: hidden1 1.8s forwards;
+}
+.ball2 {
+  animation: hidden2 2.2s forwards linear;
+}
+.ball3 {
+  animation: hidden3 2.7s forwards linear;
+}
+.ball4 {
+  animation: hidden4 3s forwards linear;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  transform: rotate(90deg);
+}
+.wrapper {
+  display: grid;
+  justify-content: center;
+}
+/* ball animation */
+@keyframes hidden1 {
+  0% {
+    visibility: visible;
   }
-  .ball2 {
-      animation: hidden2 2.2s forwards linear;
+  100% {
+    visibility: hidden;
   }
-  .ball3 {
-      animation: hidden3 2.7s forwards linear;
+}
+@keyframes hidden2 {
+  0% {
+    visibility: visible;
   }
-  .ball4 {
-      animation: hidden4 3s forwards linear;
+  100% {
+    visibility: hidden;
   }
-  .container {
-    display: grid;
-    justify-content: center;
-    position: relative;
-    align-items: center;
-    transform: rotate(90deg);
-    }
-    .wrapper {
-        display: grid;
-        justify-content: center;
-    }
-  /* ball animation */
-  @keyframes hidden1 {
-      0% {
-          visibility: visible;
-      }
-      100% {
-          visibility: hidden;
-      }
+}
+@keyframes hidden3 {
+  0% {
+    visibility: visible;
   }
-  @keyframes hidden2 {
-      0% {
-          visibility: visible;
-      }
-      100% {
-          visibility: hidden;
-      }
+  100% {
+    visibility: hidden;
   }
-  @keyframes hidden3 {
-      0% {
-          visibility: visible;
-      }
-      100% {
-          visibility: hidden;
-      }
+}
+@keyframes hidden4 {
+  0% {
+    visibility: visible;
   }
-  @keyframes hidden4 {
-      0% {
-          visibility: visible;
-      }
-      100% {
-          visibility: hidden;
-      }
+  100% {
+    visibility: hidden;
   }
-  
+}
+
 /* body of pacman */
-  .pacman {
-      width: 100px;
-      height: 100px;
-      /* margin: 40px 10px; */
-      transform: rotate(85deg);
-      position: absolute;
-      left: 50%;
-      animation: move 8s 1 ease-out;
-      animation-direction: forwards;
-      transition: all 1s;
-      visibility: hidden;
-  }
+.pacman {
+  width: 100px;
+  height: 100px;
+  /* margin: 40px 10px; */
+  transform: rotate(85deg);
+  position: absolute;
+  left: 50%;
+  animation: move 8s 1 ease-out;
+  animation-direction: forwards;
+  transition: all 1s;
+  visibility: hidden;
+}
 
-   /* Animation moves pacman from left to right */
-  @keyframes move {
-      0% {
-          top: -100%;
-          visibility: visible;
+/* Animation moves pacman from left to right */
+@keyframes move {
+  0% {
+    top: -100%;
+    visibility: visible;
+  }
+  100% {
+    top: 200%;
+    visibility: visible;
+  }
+}
 
-      }
-      100% {
-          top: 200%;
-          visibility: visible;
-      }
-  }
+.pacmanTop {
+  background-color: yellow;
+  height: 100px;
+  width: 200px;
+  border-radius: 100px 100px 0 0;
+  animation: spin 0.7s infinite linear;
+  display: hidden;
+  box-shadow: 0 0 10px yellow, 0 0 30px yellow;
+}
 
-  .pacmanTop {
-      background-color: yellow;
-      height: 100px;
-      width: 200px;
-      border-radius: 100px 100px 0 0;
-      animation: spin .7s infinite linear;
-      display: hidden;
-      box-shadow: 0 0 10px yellow, 0 0 30px yellow;
-  }
+.pacmanBottom {
+  background-color: yellow;
+  height: 100px;
+  width: 200px;
+  border-radius: 0 0 100px 100px;
+  display: hidden;
+  animation: spin2 0.7s infinite linear;
+  box-shadow: 0 0 10px yellow, 0 0 30px yellow;
+}
 
-  .pacmanBottom {
-      background-color: yellow;
-      height: 100px;
-      width: 200px;
-      border-radius: 0 0 100px 100px;
-      display: hidden;
-      animation: spin2 .7s infinite linear;
-      box-shadow: 0 0 10px yellow, 0 0 30px yellow;
+/* Moves pacmans mouth */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
   }
-
-  /* Moves pacmans mouth */
-  @keyframes spin {
-      0% {
-          transform: rotate(0deg);
-      }
-      50% {
-          transform: rotate(-35deg);
-      }
+  50% {
+    transform: rotate(-35deg);
   }
-  @keyframes spin2 {
-      0% {
-          transform: rotate(0deg);
-      }
-      50% {
-          transform: rotate(35deg);
-      }
+}
+@keyframes spin2 {
+  0% {
+    transform: rotate(0deg);
   }
-  .arrow {
-    text-decoration: none;
-    animation: slide 2s infinite linear;
-    text-shadow: 0 0 4px rgb(17, 255, 0), 0 0 8px rgb(0, 106, 255);
-    position: absolute;
-    transition: all 2s;
-    color: rgba(255, 255, 255, 0.444);
-    position: absolute;
-    top: 80%;
-    font-style: italic;
-    font-size: 1.3em;
-    font-weight: 800;
-    animation-delay: 7s;
-    visibility: hidden;
+  50% {
+    transform: rotate(35deg);
   }
+}
+.arrow {
+  text-decoration: none;
+  animation: slide 2s infinite linear;
+  text-shadow: 0 0 4px rgb(17, 255, 0), 0 0 8px rgb(0, 106, 255);
+  position: absolute;
+  transition: all 2s;
+  color: rgba(255, 255, 255, 0.444);
+  position: absolute;
+  top: 8rem;
+  font-style: italic;
+  font-size: 1.3em;
+  font-weight: 800;
+  animation-delay: 7s;
+  visibility: hidden;
+}
 .welcome {
-    font-family: 'DotGothic16', sans-serif;
-    position: absolute;
-    left: 35%;
-    font-size: 8vw;
-    text-align: center;
-    transform: rotate(-90deg);
-    animation: appear 3s forwards linear;
-    transition: all 3s;
-    animation-delay: 4.5s;
-    visibility: hidden;
+  font-family: "DotGothic16", sans-serif;
+  position: absolute;
+  left: 35%;
+  top: 0;
+  bottom: 0;
+  font-size: 8vw;
+  transform: rotate(-90deg);
+  animation: appear 3s forwards linear;
+  transition: all 3s;
+  animation-delay: 4.5s;
+  visibility: hidden;
 }
 /* welcome start text appears */
 @keyframes appear {
   50% {
-      color: rgb(0, 0, 0);
-      visibility: visible;
+    color: rgb(0, 0, 0);
+    visibility: visible;
   }
   100% {
-      text-shadow: 0 0 10px rgb(65, 227, 245), 0 0 30px rgb(171, 217, 85);
-      color: rgb(255, 255, 255);
-      visibility: visible;
+    text-shadow: 0 0 10px rgb(65, 227, 245), 0 0 30px rgb(171, 217, 85);
+    color: rgb(255, 255, 255);
+    visibility: visible;
   }
 }
 /* arrow slides */
 @keyframes slide {
   0% {
-      left: 0px;
+    left: 0px;
     text-shadow: 0 0 4px rgb(255, 132, 0), 0 0 8px rgb(0, 106, 255);
     visibility: visible;
-    } 
+  }
   25% {
-      left: 10px;
-      visibility: visible;
-      text-shadow: 0 0 4px rgb(153, 0, 255), 0 0 8px rgb(0, 106, 255);
-    }
+    left: 10px;
+    visibility: visible;
+    text-shadow: 0 0 4px rgb(153, 0, 255), 0 0 8px rgb(0, 106, 255);
+  }
   50% {
-      left: 20px;
-      visibility: visible;
-      text-shadow: 0 0 4px rgb(38, 255, 0), 0 0 8px rgb(0, 106, 255);
-    }
+    left: 20px;
+    visibility: visible;
+    text-shadow: 0 0 4px rgb(38, 255, 0), 0 0 8px rgb(0, 106, 255);
+  }
   75% {
-      left: 30px;
-      text-shadow: 0 0 4px rgb(255, 204, 0), 0 0 8px rgb(0, 106, 255);
-      visibility: visible;
-} 
+    left: 30px;
+    text-shadow: 0 0 4px rgb(255, 204, 0), 0 0 8px rgb(0, 106, 255);
+    visibility: visible;
+  }
   100% {
-      left: 40px;
-      visibility: visible;
-      text-shadow: 0 0 4px rgb(255, 0, 140), 0 0 8px rgb(0, 106, 255);
-    }
+    left: 40px;
+    visibility: visible;
+    text-shadow: 0 0 4px rgb(255, 0, 140), 0 0 8px rgb(0, 106, 255);
+  }
 }
 
 /* responsie pacman */

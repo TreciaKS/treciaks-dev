@@ -7,7 +7,7 @@ const Footer = () => {
  
   
   return (
-    <footer className="relative bottom-0">
+    <footer className="relative">
       <div className={styles.row}>
         <div
           className={`${styles.col12} ${styles.textCenter} ${styles.author}`}

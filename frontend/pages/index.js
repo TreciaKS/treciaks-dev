@@ -6,7 +6,7 @@ import React from 'react'
 
 export default function Home() {
   return (
-    <div>
+    <div className='grid h-screen overflow-hidden place-content-center'>
       <Head>
         <title>Trecia Kat's Personal Portfolio</title>
         <meta name="description" content="Trecia Kat @TreciaKS Personal Portfolio Website" />
@@ -18,7 +18,6 @@ export default function Home() {
         <link rel="icon" href="/logo1.png" />
       </Head>
 
-      <>
         <section className={styles.container}>
           <div className={styles.wrapper}>
               <div className={`${styles.ball} ${styles.ball1}`}></div>
@@ -33,7 +32,6 @@ export default function Home() {
           </div>
           <p className={styles.welcome}>Start!!! <Link href='/Main'><a className={styles.arrow}>&rarr;</a></Link></p>
         </section>
-      </>
     </div>
   )
 }
