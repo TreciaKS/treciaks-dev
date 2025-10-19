@@ -20,4 +20,4 @@ Quick Setup
 - Finally, run `npm run dev` to serve server page.
 
 ### Live Site
-<a href="#">TODO</a>
+<a href="https://treciaks-dev.vercel.app/">Let's go</a>
