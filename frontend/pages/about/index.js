@@ -51,13 +51,13 @@ const about = () => {
               </p>
             </div>
           </div>
-          <div className="container flex justify-between mx-auto text-center sm:w-2/4">
-            <button className="w-32 px-4 py-4 ml-5 text-white transition border rounded-full border-fuchsia-600 hover:text-fuchsia-600 focus:outline-none focus:no-ring active:text-fuchsia-500">
+          <div className="container flex justify-between mx-auto text-center sm:w-2/4 [&>button]:border-none">
+            <button className="w-32 px-4 py-4 ml-5 text-lg text-white transition border rounded-full bg-amber-600 hover:bg-amber-700 focus:outline-none focus:no-ring active:text-amber-500">
               <Link href="/Main">
                 <span className="text-sm font-medium">Home</span>
               </Link>
             </button>
-            <button className="w-32 py-4 mr-5 text-white transition border border-teal-600 rounded-full right-40 hover:text-teal-600 focus:outline-none focus:no-ring active:text-teal-500">
+            <button className="w-32 py-4 mr-5 text-lg text-white transition bg-teal-600 border rounded-full right-40 hover:bg-teal-700 focus:outline-none focus:no-ring active:text-teal-500">
               <Link href="/skills">
                 <span className="text-sm font-medium">Skills</span>
               </Link>
