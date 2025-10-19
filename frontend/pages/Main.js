@@ -16,7 +16,7 @@ function Main() {
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name='robots' content='index, follow'/>
         <meta name="keywords" content="Trecia Kat, TreciaKS, @TreciaKS, Trecia Sekgalo, Trecia Kat Twitter" />
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <link rel="icon" href="/logo1.png" />
       </Head>
       

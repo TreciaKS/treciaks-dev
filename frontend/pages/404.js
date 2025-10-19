@@ -1,23 +1,33 @@
-import React from 'react'
-import Ghost from '../components/Ghost/Ghost'
-import styles from '../components/Navbar/Navbar.module.css'
+import React from "react";
+import Ghost from "../components/Ghost/Ghost";
+// @ts-ignore
+import styles from "../components/Navbar/Navbar.module.css";
 
 const NotFoundPage = () => {
   return (
-        <div className={styles.myContainer}>
-            <section class="px-4 py-24 mx-auto max-w-7xl">
-                <Ghost/>
-                    <div class="w-full mx-auto text-center lg:w-2/3">
-                        <h1 class="mb-4 text-6xl font-thin text-red-500">404</h1>
-                        <p class="mb-3 text-md text-gray-200 md:text-2xl">Oh no! You've discovered my secret. I am still working on this page because well, I was tired at this point. Anyways...</p>
-                        <p class="mb-3 text-lg font-medium text-gray-200">
-                        <a href="/" class="text-red-300">Watch PacMan Eat, AGAIN???</a> <br />
-                        <a href="/Main" class="text-red-500">Straight to Menu</a>
-                        </p>
-                    </div>
-            </section>
+    <div className={styles.myContainer}>
+      <section className="px-4 py-24 mx-auto max-w-7xl">
+        <Ghost />
+        <div className="w-full pt-6 mx-auto text-center lg:w-2/3">
+          <h1 className="mb-4 text-6xl font-thin text-fuchsia-200">404</h1>
+          <p className="mb-5 text-gray-200 text-md md:text-xl">
+            This page will be updated once I get back into developer advocacy
+            and when I am creating consistent video content. For now:
+          </p>
+          <p className="py-2 mb-3 text-lg font-medium text-gray-200">
+            <a href="/" className="text-teal-300">
+              Watch PacMan Eat, AGAIN???
+            </a>{" "}
+            <br />
+            <br />
+            <a href="/Main" className="text-yellow-300">
+              Straight to Menu
+            </a>
+          </p>
         </div>
-  )
-}
+      </section>
+    </div>
+  );
+};
 
-export default NotFoundPage
+export default NotFoundPage;

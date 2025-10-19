@@ -1,6 +1,6 @@
 .container {
   margin-top: 30px; 
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 .wrap {
     width: 100%;
@@ -29,8 +29,8 @@
     transition: .1s;
   }
   .link:hover {
-    color: rgb(230, 0, 255);
+    color: rgb(255, 242, 98);
     letter-spacing: .25em;
     cursor: pointer;
-    border: 4px double rgb(230, 0, 255);
+    border: 4px double rgba(255, 246, 80, 0.9);
   }
