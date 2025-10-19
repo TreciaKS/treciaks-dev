@@ -1,6 +1,8 @@
 import Head from 'next/head'
+// @ts-ignore
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
+import React from 'react'
 
 export default function Home() {
   return (
@@ -12,7 +14,7 @@ export default function Home() {
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name='robots' content='index, follow'/>
         <meta name="keywords" content="Trecia Kat, TreciaKS, @TreciaKS, Trecia Sekgalo, Trecia Kat Twitter" />
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <link rel="icon" href="/logo1.png" />
       </Head>
 
