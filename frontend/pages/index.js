@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className='grid h-screen overflow-hidden place-content-center'>
       <Head>
-        <title>Trecia Kat's Personal Portfolio</title>
+        <title>Trecia Kat&apos;s Personal Portfolio</title>
         <meta name="description" content="Trecia Kat @TreciaKS Personal Portfolio Website" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />

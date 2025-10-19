@@ -26,6 +26,7 @@ const Socials = () => {
             <a
               className="transition-colors duration-300 transform border rounded-full shadow-md border-cyan-400 shadow-cyan-600 hover:text-cyan-500 text-cyan-400 "
               href="https://x.com/TreciaKS"
+              rel="noreferrer"
               target="_blank"
             >
               <svg
@@ -40,7 +41,8 @@ const Socials = () => {
 
             <a
               className="p-2 text-yellow-400 transition-colors duration-300 transform border border-yellow-400 rounded-full shadow-md shadow-yellow-600 hover:text-yellow-500"
-              href="https://www.linkedin.com/in/treciaks "
+              href="https://www.linkedin.com/in/treciaks"
+              rel="noreferrer"
               target="_blank"
             >
               <svg
@@ -66,6 +68,7 @@ const Socials = () => {
 
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://github.com/TreciaKS"
               className="p-3 text-orange-400 transition-colors duration-300 transform border border-orange-400 rounded-full shadow-md shadow-orange-600 hover:text-orange-500"
               aria-label="Github"
@@ -81,6 +84,7 @@ const Socials = () => {
             </a>
 
             <a
+              rel="noreferrer"
               target="_blank"
               href="https://www.tiktok.com/@TreciaKS"
               className="p-3 text-white transition-colors duration-300 transform border border-white rounded-full shadow-md shadow-gray-50 hover:text-gray-200"
@@ -97,6 +101,7 @@ const Socials = () => {
 
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.youtube.com/@TreciaKS"
               className="p-3 text-red-400 transition-colors duration-300 transform border border-red-500 rounded-full shadow-md shadow-red-600 hover:text-red-500"
               aria-label="YouTube"
@@ -112,6 +117,7 @@ const Socials = () => {
 
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://treciaks.hashnode.dev"
               className="p-3 text-green-400 transition-colors duration-300 transform border border-green-400 rounded-full shadow-md shadow-green-600 hover:text-green-500"
               aria-label="Blog"

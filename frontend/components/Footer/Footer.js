@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image';
 // @ts-ignore
 import styles from './Footer.module.css'
 
@@ -14,7 +15,8 @@ const Footer = () => {
         >
           {/* logo */}
           <div className="flex justify-center mb-5 align-middle">
-            <img
+            <Image
+              alt="TreciaKS Logo Icon"
               src="/logo1.png"
               width="40px"
               height="40px"

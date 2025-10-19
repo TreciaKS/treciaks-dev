@@ -8,7 +8,7 @@ const about = () => {
   return (
     <section>
       <Head>
-        <title>Trecia Kat's Personal Portfolio</title>
+        <title>Trecia Kat&apos;s Personal Portfolio</title>
         <meta
           name="description"
           content="Trecia Kat @TreciaKS Personal Portfolio Website"
@@ -44,7 +44,7 @@ const about = () => {
                 where logic meets creativity — whether that&apos;s structuring
                 APIs, integrating services, or tweaking UI until it finally
                 feels right. I&apos;m a curious person by nature, so I tend to
-                dig deeper than "just make it work." Outside of work,
+                dig deeper than &quot;just make it work.&quot; Outside of work,
                 you&apos;ll usually find me tinkering with side projects,
                 experimenting with design ideas, or riding my motorcycle
                 somewhere to reset my brain.
