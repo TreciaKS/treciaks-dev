@@ -10,7 +10,7 @@ const Projects = () => {
           <h1 className="mb-4 text-2xl font-medium text-purple-300 sm:text-3xl title-font">
             Projects
           </h1>
-          <p className="mx-auto text-base leading-relaxed text-gray-400 lg:w-2/3">
+          <p className="mx-auto text-base leading-relaxed text-gray-300 lg:w-2/3">
             I like building things that work, look good, and sometimes surprise
             a little. These projects give a peek into how I think, code, and
             solve problems.
@@ -21,14 +21,16 @@ const Projects = () => {
           <div className="relative p-4">
             <div className="relative flex">
               <Image
-              layout="fill"
+                layout="fill"
                 alt="gallery"
-                className="absolute inset-0 object-cover object-center w-full h-full"
+                className="absolute inset-0 object-cover object-center w-full h-full rounded-lg"
                 src="https://plus.unsplash.com/premium_photo-1663954134413-5c00af4b5b22?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGFjJTIwbWFufGVufDB8fDB8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60"
               />
-              <div className="relative z-10 w-full px-8 py-10 transition bg-black border-4 shadow-md opacity-0 rounded-xl border-blue-400/70 shadow-indigo-500/100 hover:opacity-95">
+              <div className="relative z-10 w-full px-8 py-10 transition bg-gray-900 border shadow-md opacity-0 rounded-xl border-blue-400/70 shadow-indigo-500/100 hover:opacity-95">
                 <div className="absolute top-0">
                   <a
+                    rel="noreferrer"
+                    target="_blank"
                     href="#"
                     className="mx-2 text-white transition-colors duration-300 hover:text-blue-400"
                     aria-label="Github"
@@ -45,6 +47,8 @@ const Projects = () => {
                 </div>
                 <div className="absolute top-0 right-8">
                   <a
+                    rel="noreferrer"
+                    target="_blank"
                     href="#"
                     className="mx-2 text-white transition-colors duration-300 hover:text-blue-400"
                     aria-label="Github"
@@ -68,7 +72,7 @@ const Projects = () => {
                 <h1 className="mb-3 text-lg font-medium title-font text-gray-50">
                   Neptune
                 </h1>
-                <p className="leading-relaxed text-gray-400">
+                <p className="leading-relaxed text-gray-300">
                   Photo booth fam kinfolk cold-pressed sriracha leggings
                   jianbing microdosing tousled waistcoat.
                 </p>
@@ -78,14 +82,16 @@ const Projects = () => {
           <div className="relative p-4">
             <div className="relative flex">
               <Image
-              layout="fill"
+                layout="fill"
                 alt="gallery"
-                className="absolute inset-0 object-cover object-center w-full h-full"
+                className="absolute inset-0 object-cover object-center w-full h-full rounded-lg"
                 src="https://plus.unsplash.com/premium_photo-1663954134413-5c00af4b5b22?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGFjJTIwbWFufGVufDB8fDB8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60"
               />
-              <div className="relative z-10 w-full px-8 py-10 transition bg-black border-4 shadow-md opacity-0 rounded-xl border-pink-400/70 shadow-indigo-500/100 hover:opacity-95">
+              <div className="relative z-10 w-full px-8 py-10 transition bg-gray-900 border shadow-md opacity-0 rounded-xl border-pink-400/70 shadow-indigo-500/100 hover:opacity-95">
                 <div className="absolute top-0">
                   <a
+                    rel="noreferrer"
+                    target="_blank"
                     href="#"
                     className="mx-2 text-white transition-colors duration-300 hover:text-pink-400"
                     aria-label="Github"
@@ -102,6 +108,8 @@ const Projects = () => {
                 </div>
                 <div className="absolute top-0 right-8">
                   <a
+                    rel="noreferrer"
+                    target="_blank"
                     href="#"
                     className="mx-2 text-white transition-colors duration-300 hover:text-pink-400"
                     aria-label="Github"
@@ -125,7 +133,7 @@ const Projects = () => {
                 <h1 className="mb-3 text-lg font-medium title-font text-gray-50">
                   Neptune
                 </h1>
-                <p className="leading-relaxed text-gray-400">
+                <p className="leading-relaxed text-gray-300">
                   Photo booth fam kinfolk cold-pressed sriracha leggings
                   jianbing microdosing tousled waistcoat.
                 </p>
@@ -135,14 +143,16 @@ const Projects = () => {
           <div className="relative p-4">
             <div className="relative flex">
               <Image
-              layout="fill"
+                layout="fill"
                 alt="gallery"
-                className="absolute inset-0 object-cover object-center w-full h-full"
+                className="absolute inset-0 object-cover object-center w-full h-full rounded-lg"
                 src="https://plus.unsplash.com/premium_photo-1663954134413-5c00af4b5b22?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGFjJTIwbWFufGVufDB8fDB8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60"
               />
-              <div className="relative z-10 w-full px-8 py-10 transition bg-black border-4 shadow-md opacity-0 rounded-xl border-lime-400/70 shadow-orange-500/100 hover:opacity-95">
+              <div className="relative z-10 w-full px-8 py-10 transition bg-gray-900 border shadow-md opacity-0 rounded-xl border-lime-400/70 shadow-orange-500/100 hover:opacity-95">
                 <div className="absolute top-0">
                   <a
+                    rel="noreferrer"
+                    target="_blank"
                     href="#"
                     className="mx-2 text-white transition-colors duration-300 hover:text-lime-400"
                     aria-label="Github"
@@ -159,7 +169,9 @@ const Projects = () => {
                 </div>
                 <div className="absolute top-0 right-8">
                   <a
-                    href="#"
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://lorde-fansite.vercel.app/"
                     className="mx-2 text-white transition-colors duration-300 hover:text-lime-400"
                     aria-label="Github"
                   >
@@ -182,7 +194,7 @@ const Projects = () => {
                 <h1 className="mb-3 text-lg font-medium title-font text-gray-50">
                   Neptune
                 </h1>
-                <p className="leading-relaxed text-gray-400">
+                <p className="leading-relaxed text-gray-300">
                   Photo booth fam kinfolk cold-pressed sriracha leggings
                   jianbing microdosing tousled waistcoat.
                 </p>
@@ -192,15 +204,17 @@ const Projects = () => {
           <div className="relative p-4">
             <div className="relative flex">
               <Image
-              layout="fill"
+                layout="fill"
                 alt="gallery"
-                className="absolute inset-0 object-cover object-center w-full h-full"
-                src="https://plus.unsplash.com/premium_photo-1663954134413-5c00af4b5b22?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGFjJTIwbWFufGVufDB8fDB8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60"
+                className="absolute inset-0 object-cover object-center w-full h-full rounded-lg"
+                src="/photos/lorde.png"
               />
-              <div className="relative z-10 w-full px-8 py-10 transition bg-black border-4 shadow-md opacity-0 rounded-xl border-violet-400/70 shadow-red-500/100 hover:opacity-95">
+              <div className="relative z-10 w-full px-8 py-10 transition bg-gray-900 border shadow-md opacity-0 rounded-xl border-violet-400/70 shadow-red-500/100 hover:opacity-95">
                 <div className="absolute top-0">
                   <a
-                    href="#"
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://github.com/TreciaKS/lorde-fansite"
                     className="mx-2 text-white transition-colors duration-300 hover:text-violet-400"
                     aria-label="Github"
                   >
@@ -216,9 +230,11 @@ const Projects = () => {
                 </div>
                 <div className="absolute top-0 right-8">
                   <a
-                    href="#"
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://lorde-fansite.vercel.app/"
                     className="mx-2 text-white transition-colors duration-300 hover:text-violet-400"
-                    aria-label="Github"
+                    aria-label="live"
                   >
                     <svg
                       className="w-8 h-8 mx-1"
@@ -233,15 +249,12 @@ const Projects = () => {
                     </svg>
                   </a>
                 </div>
-                <h2 className="mb-1 text-sm font-medium tracking-widest title-font text-violet-400">
-                  THE SUBTITLE
-                </h2>
-                <h1 className="mb-3 text-lg font-medium title-font text-gray-50">
-                  Neptune
+                <h1 className="mb-1 text-lg font-medium title-font text-gray-50">
+                  Lorde Fansite
                 </h1>
-                <p className="leading-relaxed text-gray-400">
-                  Photo booth fam kinfolk cold-pressed sriracha leggings
-                  jianbing microdosing tousled waistcoat.
+                <br />
+                <p className="leading-relaxed text-gray-300">
+                  TypeScript, React, TailwindCSS, Auth0, LottieFiles
                 </p>
               </div>
             </div>
