@@ -1,8 +1,8 @@
-import React from 'react'
-import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
-import styles from './About.module.css'
+import React from "react";
+import Head from "next/head";
+import Image from "next/image";
+import Link from "next/link";
+import styles from "./About.module.css";
 
 const about = () => {
   return (
@@ -40,14 +40,22 @@ const about = () => {
                 Hellos!<span className="text-pink-300"> I&apos;m Trecia</span> —
                 a software developer who enjoys building clean, functional
                 systems and figuring out how things work behind the scenes. I
-                mostly work with C# .NET, NextJS, and SQL, and I like projects
-                where logic meets creativity — whether that&apos;s structuring
-                APIs, integrating services, or tweaking UI until it finally
-                feels right. I&apos;m a curious person by nature, so I tend to
-                dig deeper than &quot;just make it work.&quot; Outside of work,
-                you&apos;ll usually find me tinkering with side projects,
-                experimenting with design ideas, or riding my motorcycle
-                somewhere to reset my brain.
+                like projects where logic meets creativity — whether that&apos;s
+                structuring APIs, integrating services, or tweaking UI until it
+                finally feels right. I&apos;m a curious person by nature, so I
+                tend to dig deeper than &quot;just make it work.&quot; Outside
+                of work, you&apos;ll usually find me tinkering with side
+                projects, creating
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://codepen.io/treciaks"
+                  className="mx-2 text-blue-300 transition-colors duration-300 cursor-pointer hover:text-indigo-400"
+                  aria-label="Github"
+                >
+                  CSS Art
+                </a>
+                , or riding my motorcycle somewhere to reset my brain.
               </p>
             </div>
           </div>
@@ -67,6 +75,6 @@ const about = () => {
       </main>
     </section>
   );
-}
+};
 
-export default about
+export default about;

@@ -30,7 +30,7 @@ export default function Home() {
                   <div className={styles.pacmanBottom}></div>
               </div>
           </div>
-          <p className={styles.welcome}>Start!!! <Link href='/Main'><a className={styles.arrow}>&rarr;</a></Link></p>
+          <p className={styles.welcome}><Link href='/Main'><a className={styles.arrow}> Start!!! &rarr;</a></Link></p>
         </section>
     </div>
   )

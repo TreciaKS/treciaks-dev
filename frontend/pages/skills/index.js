@@ -141,6 +141,26 @@ const Skills = () => {
                 Docker
               </p>
             </div>
+            <div className="p-4 border-2 border-gray-500 border-dashed shadow-md rounded-xl">
+              <p className="-mx-2 font-medium text-center text-white text-md">
+                Zod
+              </p>
+            </div>
+            <div className="p-4 border-2 border-gray-500 border-dashed shadow-md rounded-xl">
+              <p className="-mx-2 font-medium text-center text-white text-md">
+                Zustand
+              </p>
+            </div>
+            <div className="p-4 border-2 border-gray-500 border-dashed shadow-md rounded-xl">
+              <p className="-mx-2 font-medium text-center text-white text-md">
+                Figma
+              </p>
+            </div>
+            <div className="p-4 border-2 border-gray-500 border-dashed shadow-md rounded-xl">
+              <p className="-mx-2 font-medium text-center text-white text-md">
+                JIRA
+              </p>
+            </div>
           </div>
 
           <div className="grid grid-cols-2 gap-16 mb-1 text-center lg:grid-cols-2">

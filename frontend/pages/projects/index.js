@@ -24,14 +24,14 @@ const Projects = () => {
                 layout="fill"
                 alt="gallery"
                 className="absolute inset-0 object-cover object-center w-full h-full rounded-lg"
-                src="https://plus.unsplash.com/premium_photo-1663954134413-5c00af4b5b22?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGFjJTIwbWFufGVufDB8fDB8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60"
+                src="/photos/gitstation.png"
               />
               <div className="relative z-10 w-full px-8 py-10 transition bg-gray-900 border shadow-md opacity-0 rounded-xl border-blue-400/70 shadow-indigo-500/100 hover:opacity-95">
                 <div className="absolute top-0">
                   <a
                     rel="noreferrer"
                     target="_blank"
-                    href="#"
+                    href="https://github.com/TreciaKS/git-station"
                     className="mx-2 text-white transition-colors duration-300 hover:text-blue-400"
                     aria-label="Github"
                   >
@@ -49,7 +49,7 @@ const Projects = () => {
                   <a
                     rel="noreferrer"
                     target="_blank"
-                    href="#"
+                    href="https://git-station.vercel.app/"
                     className="mx-2 text-white transition-colors duration-300 hover:text-blue-400"
                     aria-label="Github"
                   >
@@ -66,15 +66,12 @@ const Projects = () => {
                     </svg>
                   </a>
                 </div>
-                <h2 className="mb-1 text-sm font-medium tracking-widest text-blue-400 title-font">
-                  THE SUBTITLE
-                </h2>
+                <h2 className="mb-1 text-sm font-medium tracking-widest text-blue-400 title-font"></h2>
                 <h1 className="mb-3 text-lg font-medium title-font text-gray-50">
-                  Neptune
+                  Git Station
                 </h1>
                 <p className="leading-relaxed text-gray-300">
-                  Photo booth fam kinfolk cold-pressed sriracha leggings
-                  jianbing microdosing tousled waistcoat.
+                  Angular 19, GitHub API, TypeScript, TailwindCSS,
                 </p>
               </div>
             </div>
