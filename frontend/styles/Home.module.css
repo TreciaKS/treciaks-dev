@@ -135,7 +135,6 @@
   text-decoration: none;
   animation: slide 2s infinite linear;
   text-shadow: 0 0 4px rgb(17, 255, 0), 0 0 8px rgb(0, 106, 255);
-  position: absolute;
   transition: all 2s;
   color: rgba(255, 255, 255, 0.444);
   position: absolute;
@@ -143,7 +142,7 @@
   font-style: italic;
   font-size: 1.3em;
   font-weight: 800;
-  animation-delay: 7s;
+  animation-delay: 3.5s;
   visibility: hidden;
 }
 .welcome {
@@ -152,11 +151,10 @@
   left: 35%;
   top: 0;
   bottom: 0;
-  font-size: 8vw;
+  font-size: 7vw;
   transform: rotate(-90deg);
   animation: appear 3s forwards linear;
   transition: all 3s;
-  animation-delay: 4.5s;
   visibility: hidden;
 }
 /* welcome start text appears */
@@ -174,27 +172,22 @@
 /* arrow slides */
 @keyframes slide {
   0% {
-    left: 0px;
     text-shadow: 0 0 4px rgb(255, 132, 0), 0 0 8px rgb(0, 106, 255);
     visibility: visible;
   }
   25% {
-    left: 10px;
     visibility: visible;
     text-shadow: 0 0 4px rgb(153, 0, 255), 0 0 8px rgb(0, 106, 255);
   }
   50% {
-    left: 20px;
     visibility: visible;
     text-shadow: 0 0 4px rgb(38, 255, 0), 0 0 8px rgb(0, 106, 255);
   }
   75% {
-    left: 30px;
     text-shadow: 0 0 4px rgb(255, 204, 0), 0 0 8px rgb(0, 106, 255);
     visibility: visible;
   }
   100% {
-    left: 40px;
     visibility: visible;
     text-shadow: 0 0 4px rgb(255, 0, 140), 0 0 8px rgb(0, 106, 255);
   }
@@ -203,3 +196,14 @@
 /* responsie pacman */
 
 /* responsive welcome text */
+@media (max-width: 768px) {
+  .welcome {
+    font-size: 12vw;
+    left: -35%;
+    top: 70%;
+    height: 0;
+  }
+  .arrow {
+    top: 3rem;
+  }
+}
