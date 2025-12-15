@@ -18,8 +18,8 @@ const Footer = () => {
             <Image
               alt="TreciaKS Logo Icon"
               src="/logo1.png"
-              width="40px"
-              height="40px"
+              width={40}
+              height={40}
               className="transition-colors duration-300 transform mr-15"
             />
           </div>

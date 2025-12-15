@@ -27,7 +27,7 @@ const Projects = () => {
                 className="absolute inset-0 object-cover object-center w-full h-full rounded-lg"
                 src="/photos/gitstation.png"
               />
-              <div className="relative z-10 w-full px-8 py-10 transition bg-gray-900 border shadow-md opacity-0 rounded-xl border-blue-400/70 shadow-indigo-500/100 hover:opacity-95">
+              <div className="relative z-10 w-full px-8 py-10 transition bg-gray-900 border shadow-md opacity-0 rounded-xl border-blue-400/70 shadow-indigo-500/100 hover:opacity-95 h-[20rem]">
                 <div className="absolute top-0">
                   <a
                     rel="noreferrer"
@@ -88,7 +88,7 @@ const Projects = () => {
                 className="absolute inset-0 object-cover object-center w-full h-full rounded-lg"
                 src="/photos/stillroom.png"
               />
-              <div className="relative z-10 w-full px-8 py-10 transition bg-gray-900 border shadow-md opacity-0 rounded-xl border-blue-400/70 shadow-indigo-500/100 hover:opacity-95">
+              <div className="relative z-10 w-full px-8 py-10 transition bg-gray-900 border shadow-md opacity-0 rounded-xl border-blue-400/70 shadow-indigo-500/100 hover:opacity-95 h-[20rem]">
                 <div className="absolute top-0">
                   <a
                     rel="noreferrer"
@@ -149,7 +149,7 @@ const Projects = () => {
                 className="absolute inset-0 object-cover object-center w-full h-full rounded-lg"
                 src="/photos/lorde.png"
               />
-              <div className="relative z-10 w-full px-8 py-10 transition bg-gray-900 border shadow-md opacity-0 rounded-xl border-blue-400/70 shadow-indigo-500/100 hover:opacity-95">
+              <div className="relative z-10 w-full px-8 py-10 transition bg-gray-900 border shadow-md opacity-0 rounded-xl border-blue-400/70 shadow-indigo-500/100 hover:opacity-95 h-[20rem]">
                 <div className="absolute top-0">
                   <a
                     rel="noreferrer"
@@ -194,7 +194,7 @@ const Projects = () => {
                   Lorde Fansite
                 </h1>
                 <p className="leading-relaxed text-gray-300">
-                  React,TypeScript, TailwindCSS, Framer, Responsive Web Design
+                  React, TypeScript, TailwindCSS, Framer, Responsive Web Design
                 </p>
               </div>
             </div>
@@ -209,7 +209,7 @@ const Projects = () => {
                 className="absolute inset-0 object-cover object-center w-full h-full rounded-lg"
                 src="/photos/haptechs.png"
               />
-              <div className="relative z-10 w-full px-8 py-10 transition bg-gray-900 border shadow-md opacity-0 rounded-xl border-blue-400/70 shadow-indigo-500/100 hover:opacity-95">
+              <div className="relative z-10 w-full px-8 py-10 transition bg-gray-900 border shadow-md opacity-0 rounded-xl border-blue-400/70 shadow-indigo-500/100 hover:opacity-95 h-[20rem]">
                 <div className="absolute top-0">
                   <a
                     rel="noreferrer"

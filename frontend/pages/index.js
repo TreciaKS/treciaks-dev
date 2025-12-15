@@ -17,21 +17,20 @@ export default function Home() {
         <meta charSet="UTF-8" />
         <link rel="icon" href="/logo1.png" />
       </Head>
+      <section className={styles.container}>
+        <div className={styles.wrapper}>
+            <div className={`${styles.ball} ${styles.ball1}`}></div>
+            <div className={`${styles.ball} ${styles.ball2}`}></div>
+            <div className={`${styles.ball} ${styles.ball3}`}></div>
+            <div className={`${styles.ball} ${styles.ball4}`}></div>
 
-        <section className={styles.container}>
-          <div className={styles.wrapper}>
-              <div className={`${styles.ball} ${styles.ball1}`}></div>
-              <div className={`${styles.ball} ${styles.ball2}`}></div>
-              <div className={`${styles.ball} ${styles.ball3}`}></div>
-              <div className={`${styles.ball} ${styles.ball4}`}></div>
-
-              <div className={styles.pacman}>
-                  <div className={styles.pacmanTop}></div>
-                  <div className={styles.pacmanBottom}></div>
-              </div>
-          </div>
-          <p className={styles.welcome}><Link href='/Main'><a className={styles.arrow}> Start!!! &rarr;</a></Link></p>
-        </section>
+            <div className={styles.pacman}>
+                <div className={styles.pacmanTop}></div>
+                <div className={styles.pacmanBottom}></div>
+            </div>
+        </div>
+        <p className={styles.welcome}><Link href='/Main' className={styles.arrow}> Start!!! &rarr;</Link></p>
+      </section>
     </div>
-  )
+  );
 }
