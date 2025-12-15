@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import Link from "next/link";
 
 const Projects = () => {
@@ -22,11 +22,11 @@ const Projects = () => {
           <div className="relative p-4">
             <div className="relative flex">
               <Image
-                layout="fill"
                 alt="gallery"
                 className="absolute inset-0 object-cover object-center w-full h-full rounded-lg"
                 src="/photos/gitstation.png"
-              />
+                fill
+                sizes="100vw" />
               <div className="relative z-10 w-full px-8 py-10 transition bg-gray-900 border shadow-md opacity-0 rounded-xl border-blue-400/70 shadow-indigo-500/100 hover:opacity-95 h-[20rem]">
                 <div className="absolute top-0">
                   <a
@@ -83,11 +83,11 @@ const Projects = () => {
           <div className="relative p-4">
             <div className="relative flex">
               <Image
-                layout="fill"
                 alt="gallery"
                 className="absolute inset-0 object-cover object-center w-full h-full rounded-lg"
                 src="/photos/stillroom.png"
-              />
+                fill
+                sizes="100vw" />
               <div className="relative z-10 w-full px-8 py-10 transition bg-gray-900 border shadow-md opacity-0 rounded-xl border-blue-400/70 shadow-indigo-500/100 hover:opacity-95 h-[20rem]">
                 <div className="absolute top-0">
                   <a
@@ -95,7 +95,7 @@ const Projects = () => {
                     target="_blank"
                     href="https://github.com/TreciaKS/stillroom"
                     className="mx-2 text-white transition-colors duration-300 hover:text-blue-400"
-                    aria-label="Github"
+                    aria-label="Stillroom"
                   >
                     <svg
                       className="w-8 h-8 fill-current"
@@ -144,11 +144,11 @@ const Projects = () => {
           <div className="relative p-4">
             <div className="relative flex">
               <Image
-                layout="fill"
                 alt="gallery"
                 className="absolute inset-0 object-cover object-center w-full h-full rounded-lg"
                 src="/photos/lorde.png"
-              />
+                fill
+                sizes="100vw" />
               <div className="relative z-10 w-full px-8 py-10 transition bg-gray-900 border shadow-md opacity-0 rounded-xl border-blue-400/70 shadow-indigo-500/100 hover:opacity-95 h-[20rem]">
                 <div className="absolute top-0">
                   <a
@@ -156,7 +156,7 @@ const Projects = () => {
                     target="_blank"
                     href="https://github.com/TreciaKS/lorde-fansite"
                     className="mx-2 text-white transition-colors duration-300 hover:text-blue-400"
-                    aria-label="Github"
+                    aria-label="Lorde"
                   >
                     <svg
                       className="w-8 h-8 fill-current"
@@ -204,11 +204,11 @@ const Projects = () => {
           <div className="relative p-4">
             <div className="relative flex">
               <Image
-                layout="fill"
                 alt="gallery"
                 className="absolute inset-0 object-cover object-center w-full h-full rounded-lg"
                 src="/photos/haptechs.png"
-              />
+                fill
+                sizes="100vw" />
               <div className="relative z-10 w-full px-8 py-10 transition bg-gray-900 border shadow-md opacity-0 rounded-xl border-blue-400/70 shadow-indigo-500/100 hover:opacity-95 h-[20rem]">
                 <div className="absolute top-0">
                   <a
@@ -216,7 +216,7 @@ const Projects = () => {
                     target="_blank"
                     href="https://github.com/TreciaKS/haptechs"
                     className="mx-2 text-white transition-colors duration-300 hover:text-blue-400"
-                    aria-label="Github"
+                    aria-label="Haptechs"
                   >
                     <svg
                       className="w-8 h-8 fill-current"
@@ -261,7 +261,6 @@ const Projects = () => {
           </div>
         </div>
       </div>
-
       {/* buttons */}
       <div className="left-0 right-0 flex justify-between pb-6 mx-auto text-center md:bottom-0 sm:w-3/4 md:relative">
         <button className="w-32 px-4 py-4 ml-5 text-white transition border rounded-full border-fuchsia-600 hover:text-fuchsia-600 focus:outline-none focus:no-ring active:text-fuchsia-500">
