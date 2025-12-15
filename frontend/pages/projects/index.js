@@ -85,7 +85,7 @@ const Projects = () => {
               <Image
                 alt="gallery"
                 className="absolute inset-0 object-cover object-center w-full h-full rounded-lg"
-                src="/photos/stillroom.png"
+                src="/photos/stillroom-red.png"
                 fill
                 sizes="100vw" />
               <div className="relative z-10 w-full px-8 py-10 transition bg-gray-900 border shadow-md opacity-0 rounded-xl border-blue-400/70 shadow-indigo-500/100 hover:opacity-95 h-[20rem]">
@@ -206,7 +206,7 @@ const Projects = () => {
               <Image
                 alt="gallery"
                 className="absolute inset-0 object-cover object-center w-full h-full rounded-lg"
-                src="/photos/haptechs.png"
+                src="/photos/haptech.png"
                 fill
                 sizes="100vw" />
               <div className="relative z-10 w-full px-8 py-10 transition bg-gray-900 border shadow-md opacity-0 rounded-xl border-blue-400/70 shadow-indigo-500/100 hover:opacity-95 h-[20rem]">
